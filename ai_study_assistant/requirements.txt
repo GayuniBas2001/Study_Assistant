@@ -1,10 +1,7 @@
-fastapi
-uvicorn
 pypdf
 python-pptx
-langchain>=0.0.200
+langchain
 faiss-cpu
 sentence-transformers
 python-dotenv
-tqdm
 requests
