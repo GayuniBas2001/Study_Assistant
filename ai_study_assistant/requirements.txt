@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pypdf
+python-pptx
+langchain>=0.0.200
+faiss-cpu
+sentence-transformers
+python-dotenv
+tqdm
+requests
