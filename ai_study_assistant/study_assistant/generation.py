@@ -1,3 +1,17 @@
+# study_assistant/generation.py
+
+"""
+Student 2: AI Content Generation (using Huggingface Model)
+
+Functions:
+- function_X_generate_answer(query, vector_store) - > Q&A Mode
+- function_Y_synthesize_notes(query, vector_store) - > Note Maker
+Notes:
+- Primary Task: Engineer Prompts Tailored to Different Context Sizes
+- Utilizes Local HuggingFace Model for Offline Generation
+- Integrates with retrieval.py for context fetching
+"""
+
 import os
 from dotenv import load_dotenv
 
@@ -16,7 +30,6 @@ load_dotenv()
 # ------------------------
 # Model Initialization
 # ------------------------
-
 MODEL_NAME = os.getenv("HF_MODEL", "openai-community/gpt2")
 print(f"🔹 Loading model: {MODEL_NAME} (first time may take a while)...")
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
