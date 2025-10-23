@@ -125,6 +125,15 @@ Once the backend is running, visit `http://localhost:8000/docs` for interactive 
 ### Frontend Environment Variables
 - `REACT_APP_API_URL` - Backend API URL (default: `http://localhost:8000`)
 
+## Documentation
+
+- 📖 **[Quick Start Guide](QUICK_START.md)** - Get running in 5 minutes
+- 🔧 **[Setup Guide](SETUP_GUIDE.md)** - Detailed installation instructions
+- 🏗️ **[Architecture](ARCHITECTURE.md)** - System design and components
+- 🚀 **[Deployment Guide](DEPLOYMENT.md)** - Production deployment options
+- 🤝 **[Contributing](CONTRIBUTING.md)** - How to contribute to the project
+- 📊 **[Project Summary](PROJECT_SUMMARY.md)** - Complete project overview
+
 ## Future Enhancements
 
 - 🌐 **Sinhala Translation**: Support for Sinhala language queries and responses
