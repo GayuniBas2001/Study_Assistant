@@ -92,7 +92,7 @@ def get_gemini_embeddings(texts: List[str]) -> Optional[List[List[float]]]:
 
 # ---------- Text extractors ----------
 def extract_text_from_pdf(path: Union[str, Path]) -> str:
-    reader = PdfReader(str(path), strict)
+    reader = PdfReader(str(path))
     pages = []
     for p in reader.pages:
         txt = p.extract_text()
