@@ -84,4 +84,8 @@ logs/
 *.tmp
 *.orig
 
+# Ignore local data and vectorstore artifacts
+data/
+vector_store/
+
 # End of file
