@@ -1,8 +1,11 @@
+streamlit
+python-dotenv
 pypdf
 python-pptx
-langchain
 faiss-cpu
 sentence-transformers
-python-dotenv
-requests
+openai
 google-cloud-translate
+langchain-community
+langchain-core
+langchain-text-splitters

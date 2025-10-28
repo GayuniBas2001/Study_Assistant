@@ -26,12 +26,12 @@ from pypdf import PdfReader
 from pptx import Presentation
 
 # LangChain docs + splitter
-from langchain.docstore.document import Document
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_core.documents import Document
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # Vector store and embeddings
-from langchain.vectorstores import FAISS
-from langchain.embeddings.base import Embeddings
+from langchain_community.vectorstores import FAISS
+from langchain_core.embeddings import Embeddings
 from sentence_transformers import SentenceTransformer
 
 import requests
